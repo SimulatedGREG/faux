@@ -1,0 +1,6 @@
+{
+  "name": "finance.accountName",
+  "currency": "finance.currencyName",
+  "amount": "finance.amount",
+  "lastAccessed": "date.past"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "faux",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon playground/index.js",
+    "lint": "eslint -f ./node_modules/eslint-friendly-formatter src"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "fastify": "^0.26.2",
+    "lodash.get": "^4.4.2",
+    "pluralize": "^7.0.0",
+    "require-dir": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.0"
+  }
+}
